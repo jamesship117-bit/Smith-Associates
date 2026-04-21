@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ken Smith & Associates | Insurance Services</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand">
+          <div class="logo-mark" aria-hidden="true">KSA</div>
+          <div class="brand-text">
+            <h1>Ken Smith &amp; Associates</h1>
+            <p>Insurance Services</p>
+          </div>
+        </div>
+        <nav aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#estimates">Fast Free Estimates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container">
+          <p class="eyebrow">Over 54 years of insurance experience</p>
+          <h2>Protecting individuals and families with confidence.</h2>
+          <p class="hero-copy">
+            Ken Smith &amp; Associates is an Insurance Service specializing in
+            group and individual life and health insurance. We pride ourselves
+            in individual service and strive to gain and keep your confidence.
+          </p>
+          <a class="cta" href="#estimates">View Fast Free Estimate Options</a>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h3>Professional, Personal Insurance Guidance</h3>
+          <p>
+            Whether you are comparing individual health coverage, dental
+            options, overseas protection, or Medicare supplements, our goal is
+            to make your choices clear and easy to navigate.
+          </p>
+        </div>
+      </section>
+
+      <section id="estimates" class="section alt">
+        <div class="container">
+          <h3>Get Fast Free Estimates on Individual Health Insurance</h3>
+          <p>
+            Choose an option below to preview available estimate paths. These
+            are currently mock links and do not lead to external sites yet.
+          </p>
+
+          <ul class="link-grid" aria-label="Insurance estimate links (mockup)">
+            <li><a href="#" onclick="return false;">Individual Health Insurance</a></li>
+            <li><a href="#" onclick="return false;">Pivot Short Term Med Up to 360 Days-A+ Rated</a></li>
+            <li><a href="#" onclick="return false;">GeoBlue Overseas Coverage</a></li>
+            <li><a href="#" onclick="return false;">MetLife National Care Dental</a></li>
+            <li><a href="#" onclick="return false;">Individual Health Insurance - Temporary</a></li>
+            <li><a href="#" onclick="return false;">Individual Dental Insurance</a></li>
+            <li><a href="#" onclick="return false;">Medicare Supplements</a></li>
+            <li><a href="#" onclick="return false;">Blue Cross</a></li>
+            <li><a href="#" onclick="return false;">Community Health</a></li>
+            <li><a href="#" onclick="return false;">United Healthcare Dental, Vision and Short Term Medical</a></li>
+            <li><a href="#" onclick="return false;">Blue Cross Medicare Supplement</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact">
+          <h3>Contact Ken Smith &amp; Associates</h3>
+          <p>
+            We are here to help you find the right coverage with one-on-one,
+            confidence-driven service.
+          </p>
+          <div class="contact-grid">
+            <div>
+              <h4>Phone</h4>
+              <p>(281) 681-8400</p>
+            </div>
+            <div>
+              <h4>Fax</h4>
+              <p>(281) 681-8401</p>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <p>Kenofksa@aol.com</p>
+            </div>
+            <div>
+              <h4>Address</h4>
+              <p>128 W Silverwood Ranch Estates<br />Shenandoah, Texas 77384-4586</p>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap">
+            <h4>Request Information (Mock Form)</h4>
+            <p>
+              This form is for layout preview only and does not submit yet.
+            </p>
+            <form class="contact-form" action="#" method="post" onsubmit="return false;">
+              <label for="fullName">Full Name</label>
+              <input id="fullName" name="fullName" type="text" placeholder="Jane Doe" />
+
+              <label for="email">Email Address</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" />
+
+              <label for="phone">Phone Number</label>
+              <input id="phone" name="phone" type="tel" placeholder="(555) 123-4567" />
+
+              <label for="coverageType">Coverage Interest</label>
+              <select id="coverageType" name="coverageType">
+                <option value="">Select an option</option>
+                <option>Individual Health Insurance</option>
+                <option>Temporary Health Insurance</option>
+                <option>Dental Insurance</option>
+                <option>Medicare Supplements</option>
+                <option>Other</option>
+              </select>
+
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Tell us what coverage information you are looking for."
+              ></textarea>
+
+              <button type="submit">Send Message (Mock)</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Ken Smith &amp; Associates, Inc.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
